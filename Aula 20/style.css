@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: rgb(187, 73, 73);
+    --cor2: rgb(35, 48, 145);
+    
+    --fonte: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#titulo1{
+    text-align: center;
+    color: rgb(35, 48, 145);
+    font-family: var(--fonte);
+}
+
+.titulo2{
+    text-align: right;
+    color: var(--cor2);
+}
+
+.titulo3{
+    text-align: left;
+    color: var(--cor1);
+}
+
+#titulos{
+    text-align: left;
+    color:  rgb(187, 73, 73);
+    font-family: var(--fonte);
+}
+
+#texto{
+    text-align: justify;
+}
+
+div{
+    
+    background-color: darkgrey;
+    border: 1px solid black;
+    margin-bottom: 5px;
+
+}
+.divtratada1{
+    display: inline-block;
+    background-color: darkgrey;
+    text-align: center;
+    height: 700px;
+    width: 30%;
+    border: 1px solid black;
+    margin-left: 5%;
+}
+
+.divtratada2{
+    display: inline-block;
+    background-color: darkgrey;
+    text-align: center;
+    height: 700px;
+    width: 30%;
+    border: 1px solid black;
+    margin-left: 5%;
+}
